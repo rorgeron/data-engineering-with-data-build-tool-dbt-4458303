@@ -1,4 +1,4 @@
-SELECT
+select
     summons_number,
     registration_state,
     plate_type,
@@ -18,6 +18,5 @@ SELECT
     violation_county,
     violation_legal_code,
     vehicle_color,
-    vehicle_year,
-FROM
-    parking_violations_2023
+    vehicle_year
+from parking_violations_2023

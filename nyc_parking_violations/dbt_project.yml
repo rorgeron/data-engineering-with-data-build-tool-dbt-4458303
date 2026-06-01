@@ -38,7 +38,7 @@ models:
     bronze:
       +materialized: view
     silver:
-      silver_parking_violation_codes:
+      silver_parking_violaton_codes:
         +materialized: ephemeral
       silver_parking_violations:
         +materialized: ephemeral
@@ -48,5 +48,6 @@ models:
         +materialized: view
     gold:
       +materialized: table
+
 tests:
   +store_failures: true
